@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836C0CF21B64EC72003F9348 /* pluto.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 836C0CF11B64EC72003F9348 /* pluto.h */; };
+		836C0CF41B64EC72003F9348 /* pluto.m in Sources */ = {isa = PBXBuildFile; fileRef = 836C0CF31B64EC72003F9348 /* pluto.m */; };
+		836C0CFA1B64EC72003F9348 /* libpluto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 836C0CEE1B64EC72003F9348 /* libpluto.a */; };
+		836C0D0B1B64ECDC003F9348 /* Future.m in Sources */ = {isa = PBXBuildFile; fileRef = 836C0D0A1B64ECDC003F9348 /* Future.m */; };
+		836C0D101B64ECEF003F9348 /* HttpLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 836C0D0D1B64ECEF003F9348 /* HttpLoader.m */; };
+		836C0D111B64ECEF003F9348 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 836C0D0F1B64ECEF003F9348 /* HttpUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836C0CFB1B64EC72003F9348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836C0CE61B64EC71003F9348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836C0CED1B64EC71003F9348;
+			remoteInfo = pluto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		836C0CEC1B64EC71003F9348 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				836C0CF21B64EC72003F9348 /* pluto.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		836C0CEE1B64EC72003F9348 /* libpluto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpluto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		836C0CF11B64EC72003F9348 /* pluto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pluto.h; sourceTree = "<group>"; };
+		836C0CF31B64EC72003F9348 /* pluto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pluto.m; sourceTree = "<group>"; };
+		836C0CF91B64EC72003F9348 /* plutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836C0CFF1B64EC72003F9348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836C0D091B64ECDC003F9348 /* Future.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Future.h; sourceTree = "<group>"; };
+		836C0D0A1B64ECDC003F9348 /* Future.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Future.m; sourceTree = "<group>"; };
+		836C0D0C1B64ECEF003F9348 /* HttpLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpLoader.h; sourceTree = "<group>"; };
+		836C0D0D1B64ECEF003F9348 /* HttpLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpLoader.m; sourceTree = "<group>"; };
+		836C0D0E1B64ECEF003F9348 /* HttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtil.h; sourceTree = "<group>"; };
+		836C0D0F1B64ECEF003F9348 /* HttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836C0CEB1B64EC71003F9348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836C0CF61B64EC72003F9348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836C0CFA1B64EC72003F9348 /* libpluto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836C0CE51B64EC71003F9348 = {
+			isa = PBXGroup;
+			children = (
+				836C0CF01B64EC72003F9348 /* pluto */,
+				836C0CFD1B64EC72003F9348 /* plutoTests */,
+				836C0CEF1B64EC72003F9348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836C0CEF1B64EC72003F9348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836C0CEE1B64EC72003F9348 /* libpluto.a */,
+				836C0CF91B64EC72003F9348 /* plutoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836C0CF01B64EC72003F9348 /* pluto */ = {
+			isa = PBXGroup;
+			children = (
+				836C0D081B64ECA6003F9348 /* net */,
+				836C0CF11B64EC72003F9348 /* pluto.h */,
+				836C0CF31B64EC72003F9348 /* pluto.m */,
+			);
+			path = pluto;
+			sourceTree = "<group>";
+		};
+		836C0CFD1B64EC72003F9348 /* plutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				836C0CFE1B64EC72003F9348 /* Supporting Files */,
+			);
+			path = plutoTests;
+			sourceTree = "<group>";
+		};
+		836C0CFE1B64EC72003F9348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836C0CFF1B64EC72003F9348 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		836C0D081B64ECA6003F9348 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				836C0D0C1B64ECEF003F9348 /* HttpLoader.h */,
+				836C0D0D1B64ECEF003F9348 /* HttpLoader.m */,
+				836C0D0E1B64ECEF003F9348 /* HttpUtil.h */,
+				836C0D0F1B64ECEF003F9348 /* HttpUtil.m */,
+				836C0D091B64ECDC003F9348 /* Future.h */,
+				836C0D0A1B64ECDC003F9348 /* Future.m */,
+			);
+			name = net;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836C0CED1B64EC71003F9348 /* pluto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836C0D021B64EC72003F9348 /* Build configuration list for PBXNativeTarget "pluto" */;
+			buildPhases = (
+				836C0CEA1B64EC71003F9348 /* Sources */,
+				836C0CEB1B64EC71003F9348 /* Frameworks */,
+				836C0CEC1B64EC71003F9348 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pluto;
+			productName = pluto;
+			productReference = 836C0CEE1B64EC72003F9348 /* libpluto.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		836C0CF81B64EC72003F9348 /* plutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836C0D051B64EC72003F9348 /* Build configuration list for PBXNativeTarget "plutoTests" */;
+			buildPhases = (
+				836C0CF51B64EC72003F9348 /* Sources */,
+				836C0CF61B64EC72003F9348 /* Frameworks */,
+				836C0CF71B64EC72003F9348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836C0CFC1B64EC72003F9348 /* PBXTargetDependency */,
+			);
+			name = plutoTests;
+			productName = plutoTests;
+			productReference = 836C0CF91B64EC72003F9348 /* plutoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836C0CE61B64EC71003F9348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.slfuture;
+				TargetAttributes = {
+					836C0CED1B64EC71003F9348 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					836C0CF81B64EC72003F9348 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 836C0CE91B64EC71003F9348 /* Build configuration list for PBXProject "pluto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 836C0CE51B64EC71003F9348;
+			productRefGroup = 836C0CEF1B64EC72003F9348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836C0CED1B64EC71003F9348 /* pluto */,
+				836C0CF81B64EC72003F9348 /* plutoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836C0CF71B64EC72003F9348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836C0CEA1B64EC71003F9348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836C0D101B64ECEF003F9348 /* HttpLoader.m in Sources */,
+				836C0D0B1B64ECDC003F9348 /* Future.m in Sources */,
+				836C0CF41B64EC72003F9348 /* pluto.m in Sources */,
+				836C0D111B64ECEF003F9348 /* HttpUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836C0CF51B64EC72003F9348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836C0CFC1B64EC72003F9348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836C0CED1B64EC71003F9348 /* pluto */;
+			targetProxy = 836C0CFB1B64EC72003F9348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		836C0D001B64EC72003F9348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		836C0D011B64EC72003F9348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836C0D031B64EC72003F9348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		836C0D041B64EC72003F9348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		836C0D061B64EC72003F9348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = plutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		836C0D071B64EC72003F9348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = plutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836C0CE91B64EC71003F9348 /* Build configuration list for PBXProject "pluto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836C0D001B64EC72003F9348 /* Debug */,
+				836C0D011B64EC72003F9348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836C0D021B64EC72003F9348 /* Build configuration list for PBXNativeTarget "pluto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836C0D031B64EC72003F9348 /* Debug */,
+				836C0D041B64EC72003F9348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		836C0D051B64EC72003F9348 /* Build configuration list for PBXNativeTarget "plutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836C0D061B64EC72003F9348 /* Debug */,
+				836C0D071B64EC72003F9348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836C0CE61B64EC71003F9348 /* Project object */;
+}
